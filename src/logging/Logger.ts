@@ -11,6 +11,7 @@
  * permissions and limitations under the License.
  */
 import Debug from "debug";
+import { ControlResponseBuilder } from '../responseGeneration/ControlResponseBuilder';
 
 const DEFAULT_LOG_LEVEL = 'error:*, warn:*';
 
@@ -50,6 +51,7 @@ export class Logger {
      * @param message - Message
      */
     error(message: string): void {
+        console.log('Test');
         Debug(`error:${this.moduleName}`)(message);
     }
 
