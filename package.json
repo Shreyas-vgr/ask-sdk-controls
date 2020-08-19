@@ -1,7 +1,7 @@
 {
     "name": "ask-sdk-controls",
-    "version": "0.2.1",
-    "description": "Skill-building framework & library for Alexa SDK",
+    "version": "0.3.1",
+    "description": "Submodule testing on Skill-building framework & library for Alexa SDK",
     "main": "dist/src/index.js",
     "types": "dist/src/index.d.ts",
     "scripts": {
