@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "es2017", // es2017 is the lowest with JS await keyword which makes async debugging much nicer.
+        "target": "es2017", // es2017 is lowest with JS await keyword which makes async debugging much nicer.
         "outDir": "dist",
         "rootDir": "./",
         "lib": [], // do not add any libs here. See https://github.com/Microsoft/TypeScript/issues/27416
