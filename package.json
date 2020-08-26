@@ -39,6 +39,7 @@
         "cross-env": "^7.0.2",
         "eslint": "^7.2.0",
         "eslint-plugin-tsdoc": "^0.2.5",
+        "husky": "^4.2.3",
         "mocha": "^7.1.2",
         "nyc": "^15.0.1",
         "sinon": "^9.0.1",
@@ -48,6 +49,13 @@
         "typedoc": "^0.17.6",
         "typedoc-neo-theme": "^1.0.8",
         "typescript": "^3.9.5"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run lint",
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+            "pre-push": "npm run test"
+        }
     },
     "author": "Amazon Alexa Skills Kit SDK team",
     "repository": "github:alexa/alexa-skills-kit-sdk-for-nodejs",
