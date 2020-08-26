@@ -151,7 +151,6 @@ export class ContainerControl extends Control implements IContainerControl, Cont
             log.debug(`${this.id} canHandleByChild=true. selectedHandlingChild = ${this.selectedHandlingChild.id}`);
             return true;
         }
-        log.debug('ContainterControl cannot be handled');
         log.debug(`${this.id} canHandleByChild=false.`);
         return false;
 
